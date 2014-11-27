@@ -28,4 +28,4 @@ A simple usage example:
 
 Please file feature requests and bugs at the [issue tracker][tracker].
 
-[tracker]: http://example.com/issues/replaceme
+[tracker]: https://github.com/terrasea/tap_completer/issues
