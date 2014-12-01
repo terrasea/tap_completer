@@ -1,5 +1,9 @@
 name: tap_completer
 version: 0.0.1
+author: James Hurford <terrasea@gmail.com>
 description: Another way to consolidate multiple futures into one future
+homepage: https://github.com/terrasea/tap_completer
+environment:
+  sdk: '>=1.0.0 <2.0.0'
 dev_dependencies:
   unittest: any

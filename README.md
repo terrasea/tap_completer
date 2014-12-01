@@ -6,7 +6,8 @@ It can handle multiple taps, so it can handle multiple asynchronous Futures at
 once, with only one Completer.  It allows the consolidation of synchronous
 Futures into one.  This could be done other ways, but I think this makes it
 easier on the developer, especially when dealing with multiple futures, where
-everyone has to finish before something can happen.  
+everyone has to finish before something can happen.  It can be used stadalone
+or as a mixin and implements Completer.
 
 ## Usage
 

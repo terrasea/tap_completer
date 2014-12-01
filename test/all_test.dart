@@ -4,7 +4,6 @@
 library tap_completer.test;
 
 import 'package:unittest/unittest.dart';
-import 'package:unittest/unittest.dart' as unit;
 import 'package:tap_completer/tap_completer.dart';
 
 
@@ -69,5 +68,17 @@ main() {
         expect(tapCompleter.isCompleted, isFalse);
 
     });
+
+    test('works as a Mixin', () {
+      var mixedin = new MixinTap()
+        ..tap((completer) => completer.complete());
+
+      expect(mixedin.future, completes);
+    });
   });
+}
+
+
+class MixinTap extends Object with TapCompleter {
+
 }
